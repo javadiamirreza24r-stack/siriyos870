@@ -1,0 +1,95 @@
+<html>
+
+<head>
+    <nav class="navbar">
+        <div class="logo">AMIR</div>
+
+        <ul class="nav-links">
+            <li><a href="#">خانه</a></li>
+            <li><a href="#">خدمات</a></li>
+            <li><a href="#">درباره</a></li>
+            <li><a href="#">تماس</a></li>
+        </ul>
+
+        <button class="login-btn">ورود</button>
+    </nav>
+    <title> </title>
+    <link rel="icon" type="image/x-icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTROxS2bfQ5yICxt9H0J7g88B1dM5SS5bURnBL6Lfmb0Q&s=10">
+    <link rel="stylesheet" href="amir.css">
+</head>
+
+
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div style="text-align: center;">
+
+
+    </div>
+    <div id="particles-js"></div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script>
+        particlesJS("particles-js", {
+            particles: {
+                number: { value: 80 },
+                color: { value: "#ffffff" },
+                shape: { type: "circle" },
+                size: { value: 3 },
+                move: {
+                    enable: true,
+                    speed: 2
+                },
+                line_linked: {
+                    enable: true,
+                    distance: 150,
+                    color: "#ffffff",
+                    opacity: 0.4,
+                    width: 1
+                }
+            },
+            interactivity: {
+                detect_on: "canvas",
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: "grab"
+                    }
+                },
+                modes: {
+                    grab: {
+                        distance: 200,
+                        line_linked: {
+                            opacity: 1
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+    <div class="login-box">
+        <h2>ورود</h2>
+
+        <div class="input-box">
+            <input type="tel" placeholder="شماره موبایل" required>
+        </div>
+
+        <div class="input-box">
+            <input type="password" placeholder="رمز عبور" required>
+        </div>
+
+        <button class="login-btn">ورود</button>
+    </div>
+
+</body>
+
+</html>
